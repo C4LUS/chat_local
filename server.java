@@ -1,7 +1,7 @@
 import java.io. *;
 import java.net. *;
 
-public class serveur {
+public class server {
     public static void main(String[] args) {
         try (ServerSocket serv = new ServerSocket(12345)) {
             System.out.println("Serveru on port 12345");
